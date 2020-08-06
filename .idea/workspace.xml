@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff993787-74d7-4f64-8f7f-ecfb6bd6a735" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pollsystem/static/images/ques.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pollsystem/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pollsystem/templates/polls/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pollsystem/templates/polls/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pollsystem/templates/polls/results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pollsystem/pages/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pollsystem/templates/pages/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pollsystem/templates/partials/_navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pollsystem/pollsystem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pollsystem/pollsystem/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pollsystem/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pollsystem/polls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pollsystem/pollsystem/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pollsystem/pollsystem/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pollsystem/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/pollsystem/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pollsystem/templates/polls/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/pollsystem/templates/polls/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pollsystem/templates/polls/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/pollsystem/templates/polls/results.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -32,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pollsystem/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Online studies" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -70,7 +72,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
