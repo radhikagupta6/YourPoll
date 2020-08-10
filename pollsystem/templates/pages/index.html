@@ -1,12 +1,21 @@
 {% extends 'base.html' %}
 {% block content %}
-
-<div class ="card text-center">
+<div class='container'>
+<div class ="card text-center bg-light">
 	<div class ="card-body">
-		<h1>Welcome To Polling System</h1>
-		<p>This is an example Django polling application</p>
-		<a class ="btn btn-dark" href ="{% url 'polls:index' %}">
-			View Available Polls</a>
+		<h1>Welcome To YourPoll</h1>
+		<h3>(The polling App)</h3>
+		<br/>
+		<br/>
+		<p>This is a polling application. <br/>Having various polls availabe. <br/>This application is built using Django framework.</p>
+		
+		<br/>
+		<br/>
+		<br/>
+		<a class ="btn btn-primary" href ="{% url 'polls:index' %}">
+			View Available Polls
+		</a>
 	</div>
+</div>
 </div>
 {% endblock %}
